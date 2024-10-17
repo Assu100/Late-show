@@ -19,15 +19,13 @@
     ```bash
     python app.py
 
-## API Endpoints
-# GET /episodes: Retrieve all episodes.
-# GET /episodes/<id>: Retrieve a specific episode by ID.
-# GET /guests: Retrieve all guests.
-# POST /appearances: Create a new appearance.
+# API Endpoints
+### GET /guests: Retrieve all guests.
+### POST /appearances: Create a new appearance.
 
-## Validation
+# Validation
 
-### Final Steps
+## Final Steps
 
 1. **Adjust Database Connection**: Ensure your `.env` file has the correct database connection string.
 2. **Run the Application**: Start the Flask application using:
