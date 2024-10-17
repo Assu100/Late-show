@@ -20,6 +20,8 @@
     python app.py
 
 # API Endpoints
+### GET /episodes: Retrieve all episodes.
+### GET /episodes/<id>: Retrieve a specific episode by ID
 ### GET /guests: Retrieve all guests.
 ### POST /appearances: Create a new appearance.
 
@@ -32,4 +34,4 @@
    ```bash
    python app.py
 
-## Test with postman
+# Test with postman
